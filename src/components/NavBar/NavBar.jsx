@@ -1,5 +1,4 @@
 import logo from "../../assets/deathstar.png"
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return ( 

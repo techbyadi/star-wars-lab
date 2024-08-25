@@ -36,6 +36,8 @@ body {
   gap: 50px;
 }
 
+
+
 .starship-card {
   display: flex;
   flex-direction: column;
@@ -46,6 +48,26 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.87);
   border-radius: 8px;
   background-color: 	#94713d;
+}
+
+.starships-details-container {
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.starship-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  background-color: 	#8d5705;
+  padding-left: 20px;
 }
 
 .starship-card > h3, .starship-card > div > button, .edit-button {

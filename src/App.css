@@ -15,7 +15,7 @@ nav {
   align-self: center;
 }
 
-h2 {
+h2, a {
   color: #00D8FF;
   border-bottom: 1px solid transparent;
   text-decoration: none;
