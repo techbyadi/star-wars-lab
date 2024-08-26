@@ -3,7 +3,7 @@ import { getAllStarships, getStarshipNumberFromUrl } from "../services/sw-api";
 import NavBar from "./components/NavBar/NavBar";
 import { Link } from "react-router-dom"
 import StarshipDetails from "../pages/StarshipDetails/StarshipDetails";
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
     <>
       <NavBar />
       <Routes>
-
       <Route 
           path="/" 
           element={
@@ -42,13 +41,8 @@ function App() {
             </div>
           } 
         />
-
-          <Route path="/starshipDetails/:starShipNumber" element = {<StarshipDetails/>}/>
-        
+        <Route path="/starshipDetails/:starShipNumber" element = {<StarshipDetails/>}/>
       </Routes>
-
-
-      
     </>
   )
 }
