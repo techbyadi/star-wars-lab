@@ -9,7 +9,6 @@ const PilotList = ({ pilotUrls }) => {
   useEffect(()=>{
     const fetchPilotDetails = async () => {
       const pilotNames = await getPilotList(pilotUrls)
-      console.log("response: ",pilotNames);
       setPilotList(pilotNames)
     }
     fetchPilotDetails()
